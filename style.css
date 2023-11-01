@@ -1,0 +1,116 @@
+.Titulo {
+    font-size: 56px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    order: 5;
+    flex-direction: column;
+
+    height: 100vh;
+
+    position: relative;
+    z-index: 90;
+    height: 550px;
+    margin-left: 50%;
+    max-width: 450px;
+    background-color: rgb(0, 0, 0, 0.75);
+    padding: 60px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    
+    
+}
+
+.Subtitulo {
+    font-size: 40px; 
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-right: 60%;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;;
+    font-size: 32px;
+    font-weight: 500;
+ }
+
+.Login{
+    margin-top: px;
+    margin-bottom: 32px;
+}
+
+.Botao_login {
+    margin-top: 24px;
+    color: white;
+    background-color: #E50914;
+    height: 4vh;
+    width: 33vh;
+    border-radius: 4px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+input {
+border-radius: 4px;
+height: 4vh;
+width: 32vh;
+background-color: #333333;
+
+}
+
+.Logo img{
+    
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+header{
+    
+    height: 25vh;
+    width: 25vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/ab180a27-b661-44d7-a6d9-940cb32f2f4a/8ccb0ade-2be3-4efb-88f9-5bf81cb88722/BR-en-20231009-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-repeat: no-repeat;
+    background-image: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.support {
+    display: flex;
+    color: #b3b3b3;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-right: 20%;
+}
+
+.support label {
+    size: 50%;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #b3b3b3;
+    width: 24vh;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.support input {
+    width: 16px;
+    height: 15px;
+    border-radius: 24px;
+    margin-right: 8%;
+    margin-top: 8px;
+    
+}
+
+
